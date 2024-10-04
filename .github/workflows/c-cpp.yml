@@ -15,3 +15,7 @@ jobs:
     - uses: actions/checkout@v4
     - name: build
       run: gcc -o elero main.h main.c
+    - name: build-tests
+      run: gcc -o elero_tests main.h tests.c
+    - name: run-tests
+      run: ./elero_tests
