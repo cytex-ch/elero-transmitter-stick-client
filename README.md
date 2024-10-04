@@ -115,6 +115,15 @@ This will print information about the device's current status on the specified c
 - `0`: Successful execution.
 - `1`: Error occurred (e.g., invalid arguments, serial port configuration issues).
 
+## Testing
+
+You can test the program by running the following commands:
+
+```bash
+gcc -o elero_tests main.h tests.c
+./elero_tests
+```
+
 ## Notes
 
 - Ensure the serial port `/dev/ttyUSB0` is configured properly and accessible or specify a different device using the `-d` flag.
@@ -137,3 +146,5 @@ This will print information about the device's current status on the specified c
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
