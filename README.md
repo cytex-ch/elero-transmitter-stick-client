@@ -1,5 +1,5 @@
 
-# Elero Transmitter Serial Program
+# Elero Transmitter Stick Client
 
 This program facilitates communication with a Elero Transmitter device connected to a serial port. It allows you to check which channels are learned by the device, send control commands, and retrieve status information.
 
