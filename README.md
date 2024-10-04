@@ -21,7 +21,7 @@ This program facilitates communication with a Elero Transmitter device connected
 Use `gcc` to compile the program:
 
 ```bash
-gcc -o elero main.c
+gcc -o elero main.h main.c
 ```
 
 Ensure that the user has permissions to access the serial port (e.g., being part of the `dialout` group on Linux).
