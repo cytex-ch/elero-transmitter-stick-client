@@ -1,3 +1,4 @@
+[![C/C++ CI](https://github.com/cytex-ch/elero-transmitter-stick-client/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/cytex-ch/elero-transmitter-stick-client/actions/workflows/c-cpp.yml)
 
 # Elero Transmitter Stick Client
 
